@@ -57,7 +57,7 @@ You can also adjust the following constants directly in the script:
 | `JSON_FILE` | `Tickets.json` | Path to your ticket export file |
 | `RESULTS_FILE` | `device_results.json` | Output file for device data |
 | `ERRORS_FILE` | `device_errors.json` | Output file for unresolved users |
-| `KEEP_FIELDS` | *(see script)* | Set of device fields to retain in output |
+| `KEEP_FIELDS` | *(see script)* | Set of device fields from Intune to retain in output |
 
 ---
 
@@ -115,7 +115,7 @@ results = pull_device_info(
 **Example `device_summary.txt` entry:**
 ```
 ============================================================
- User: jsmith@domain.com  |  Devices: 2
+ User: jsmith@domain.com  |  Devices: 1
 ============================================================
 
   Device #1
